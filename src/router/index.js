@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import QuestionsIndex from "../views/QuestionsIndex.vue";
+import Signup from "../views/Signup.vue";
 
 Vue.use(VueRouter);
 
@@ -21,9 +21,9 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
-    path: "/questions",
-    name: "questions-index",
-    component: QuestionsIndex,
+    path: "/signup",
+    name: "signup",
+    component: Signup,
   },
 ];
 
